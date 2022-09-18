@@ -1,0 +1,73 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "alignment": "left",
+        "segments": [
+          {
+            "background": "#ffe9aa",
+            "foreground": "#100e23",
+            "powerline_symbol": "\ue0b0",
+            "style": "powerline",
+            "template": " \uf0e7 ",
+            "type": "root"
+          },
+          {
+            "foreground": "#f7f7f7",
+            "powerline_symbol": "\ue0b0",
+            "properties": {
+              "folder_icon": "\uf115",
+              "folder_separator_icon": "/",
+              "style": "full"
+            },
+            "style": "plain",
+            "template": " {{ .Path }} ",
+            "type": "path"
+          },
+          {
+            "background": "#00B500",
+            "background_templates": [
+              "{{ if or (.Working.Changed) (.Staging.Changed) }}#bd902f{{ end }}",
+              "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FF0056{{ end }}",
+              "{{ if gt .Ahead 0 }}red{{ end }}",
+              "{{ if gt .Behind 0 }}magenta{{ end }}"
+            ],
+            "foreground": "#000000",
+            "powerline_symbol": "\ue0b0",
+            "properties": {
+              "fetch_stash_count": true,
+              "fetch_status": true,
+              "fetch_upstream_icon": true
+            },
+            "style": "powerline",
+            "template": " {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}}\uf692{{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
+            "type": "git"
+          },
+          {
+            "background": "#1e2729",
+            "foreground": "#0cf0d2",
+            "powerline_symbol": "\ue0b0",
+            "style": "powerline",
+            "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+            "type": "python"
+          }
+        ],
+        "type": "prompt"
+      },
+      {
+        "alignment": "left",
+        "newline": false,
+        "segments": [
+          {
+            "foreground": "#007ACC",
+            "style": "plain",
+            "template": " ",
+            "type": "text"
+          }
+        ],
+        "type": "prompt"
+      }
+    ],
+    "version": 2
+  }
+  
