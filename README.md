@@ -11,7 +11,8 @@ More details about the assignment will be available in its README.md file.
 - [Windows Terminal](https://github.com/microsoft/terminal/) 
 - [Powershell](https://github.com/PowerShell/PowerShell/) 
 - [Windows Package Manager](https://github.com/microsoft/winget-cli)
-- [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh/) 
+- [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh/)
+- [Powerline](https://github.com/powerline/powerline)
 - [Posh-git](https://github.com/dahlbyk/posh-git) 
 - [Visual Studio Code](https://github.com/microsoft/vscode)
 
