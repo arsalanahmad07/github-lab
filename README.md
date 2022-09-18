@@ -84,7 +84,7 @@ oh-my-posh init pwsh --config "$env:USERPROFILE\Documents\WindowsPowerShell\them
 You can learn more about what each of the symbols for Git mean on [posh-git documentation](https://github.com/dahlbyk/posh-git#git-status-summary-information)
 
 ## Resources
-- [Git Beginner Tutorial](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [Git/GitHub Beginner Tutorial](https://www.youtube.com/watch?v=8JJ101D3knE)
 - [Write good commit messages](https://cbea.ms/git-commit/)
 - [An example repository with good commit messages](https://github.com/chocolatey/choco/pulls?q=is%3Apr+is%3Aclosed)
 - [Intermediate Git Tutorial - Learn Git Data Model](https://www.youtube.com/watch?v=2sjqTHE0zok)
