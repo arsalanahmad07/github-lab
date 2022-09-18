@@ -83,6 +83,9 @@ oh-my-posh init pwsh --config "$env:USERPROFILE\Documents\WindowsPowerShell\them
 
 You can learn more about what each of the symbols for Git mean on [posh-git documentation](https://github.com/dahlbyk/posh-git#git-status-summary-information)
 
+## Contribution
+Feel free to contribute to this lab as well if you believe something can be improved! The aim is to make an introductory Git/GitHub lab that is easily digestible for new students and exposes them various different ideas.
+
 ## Resources
 - [Git/GitHub Beginner Tutorial](https://www.youtube.com/watch?v=8JJ101D3knE)
 - [Write good commit messages](https://cbea.ms/git-commit/)
