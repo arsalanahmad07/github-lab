@@ -1,5 +1,10 @@
 # Git and GitHub
 
+## Assignment 0
+Head on over to the Assignment 0 URL shared with you in LMS. Be sure to log in using your GitHub account you are going to use for the rest of this course. Using that link, you can select your Qalam ID from the dropdown menu and accept this assignment. The assignment is intended to familiarize students with submissions over [GitHub Classroom](https://classroom.github.com/) platform. 
+
+More details about the assignment will be available in its README.md file.
+
 ## Setting up Git Environment
 
 ### Softwares used
