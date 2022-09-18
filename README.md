@@ -57,14 +57,14 @@ code $PROFILE
 7) Add the following lines of code inside the configuration file
 ```
 Import-Module posh-git
-oh-my-posh init pwsh --config "$env:USERPROFILE\Documents\WindowsPowerShell\theme\my_oh-my-posh_theme.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:USERPROFILE\Documents\WindowsPowerShell\themes\oh-my-posh_theme.omp.json" | Invoke-Expression
 ```
   - The `$env:USERPROFILE` expands to your user folder location inside Windows. In most cases it exapnds to `C:\Users\<your-username>`. In some cases, if you have `OneDrive` installed, the default user location may be different. Consider updating the path in the 2nd line to the location where your `WindowsPowerShell` directory is located in case the user profile location is different. 
-  - Notice we refer to `WindowsPowerShell\theme` directory even though we have not created such a directory. This will be done in the next step.
+  - Notice we refer to `WindowsPowerShell\themes` directory even though we have not created such a directory. This will be done in the next step.
   - Save the file and exit VS Code.
 
-8) Create a new folder called `theme` inside WindowsPowerShell directory and add the following file inside the directory.
-  [my_oh-my-posh_theme.omp.json](/files/my_oh-my-posh_theme.omp.json)
+8) Create a new folder called `themes` inside WindowsPowerShell directory and add the following file inside the directory.
+  [oh-my-posh_theme.omp.json](/files/themes/oh-my-posh_theme.omp.json)
 
 9) Re-launch terminal. You may notice new symbols that are not being rendered properly. This is because to load these status symbols (otherwise known as [Powerline Glyphs](https://news.ycombinator.com/item?id=15255696), you need `Powerline` fonts). We're going to install a Powerline font [Caskaydia Cove Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip).
   - Extract the zip archive to a folder.
