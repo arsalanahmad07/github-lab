@@ -1,5 +1,47 @@
 # Git and GitHub
 
+## Basic Git Commands
+The following are basic git commands you need to get started. Keep in mind the following is a very high-level description of each command's functionality. In reality, there is much more to each command which you can learn from reading the documentation hyperlinked to each command's heading. For now, a purposefully simplified description of each command can suffice.
+
+* [git help](https://git-scm.com/docs/git-help): Redirects you to the manual page of a specified git command. 
+  * `USAGE: git help <sub_command>`
+  
+* [git clone](https://git-scm.com/docs/git-clone): Download the latest version of a remote repository.
+  * `USAGE: git clone <remote_repo_url>`
+  
+* [git checkout](https://git-scm.com/docs/git-checkout): Switch between branches.
+  * `USAGE: git checkout [OPTIONS] <branch_name>`
+    * -b: Create a new branch
+    
+* [git branch](https://git-scm.com/docs/git-branch): List all branches in the local repository.
+  * `USAGE: git branch [OPTIONS]`
+    * --delete: Delete a branch `e.g. git branch --delete update-docs`
+    
+* [git add](https://git-scm.com/docs/git-add): Propose changes for next commit.
+  * `USAGE: git add <path_to_file>`
+     * `git add .`: Recursively add all files as changes for next commit.
+     
+* [git status](https://git-scm.com/docs/git-status): Display state of your working repository.
+  * `USAGE: git status [OPTIONS]`
+    * -s: Display a short status
+    
+* [git commit](https://git-scm.com/docs/git-commit): Save a snapshot of working directory.
+  * `USAGE: git commit [OPTIONS]`
+    * -m: Specify a commit message
+    * -a: Skip the staging area (commit without using git add first)
+    
+* [git push](https://git-scm.com/docs/git-push): Upload your commit from local repository to repote repository
+  * `USAGE: git push`
+  
+* [git fetch](https://git-scm.com/docs/git-fetch): Get all updates from the repote repository.
+  * `USAGE: git fetch`
+  
+* [git merge](https://git-scm.com/docs/git-merge): Download updates from git fetch command into your local repository.
+  * `USAGE: git merge`
+  
+* [git pull](https://git-scm.com/docs/git-pull): Combination of git fetch and git merge.
+  * `USAGE: git pull`
+
 ## Assignment 0
 Head on over to the Assignment 0 URL shared with you in LMS. Be sure to log in using your GitHub account you are going to use for the rest of this course. Using that link, you can select your Qalam ID from the dropdown menu and accept this assignment. The assignment is intended to familiarize students with submissions over [GitHub Classroom](https://classroom.github.com/) platform. 
 
