@@ -62,6 +62,47 @@ The following are basic git commands you need to get started. Keep in mind the f
 * [git pull](https://git-scm.com/docs/git-pull): Combination of git fetch and git merge.
   * `USAGE: git pull`
 
+## Getting started 
+Learn more about Installation procedure [here](#installation--setting-up-git-environment). The following set of commands are executed in `Git Bash`.
+
+### Create a repository
+1) Head on over to https://github.com/new and create a new private repository. Tick the checkbox `Add a README.md file`.
+2) Clone the remote repository by copying the URL of the newly created repository and use the command `git clone <remote_repo_url>`.
+3) A local repository has been created in the present working directory.
+
+### Making your first commit
+1) Open the cloned repository through `cd <repo_name>`.
+2) Open the repository in file explorer `explorer.exe .`.
+3) Create a new file hello.txt and add some dummy text inside it. 
+4) Track hello.txt to be added in next commit `git add hello.txt`.
+5) Commit/Save changes to the local repository `git commit -m "Add hello.txt"`.
+6) Update GitHub (remote) repository with the changes made in local repository. `git push`. 
+
+### Commit message etiquettes 
+- [Write good commit messages](https://cbea.ms/git-commit/)
+- [An example repository with good commit messages](https://github.com/chocolatey/choco/pulls?q=is%3Apr+is%3Aclosed)
+
+### Branches
+Branches are one of the most powerful concepts in Git that makes collaborative work seamless. A branch represents an independent line of development. 
+
+1) Create a branch `git branch <branch_name>`.
+2) Update the current branch through `git checkout <branch_name>`. Observe which branch you're in through the command `git branch`.
+
+> A shortcut to do both of these steps in one command is `git checkout -b <branch_name>` which both creates a new branch and updates the current branch.
+
+3) Create a new file `foo.txt` and add some dummy text.
+4) Commit the creation of foo.txt through the command `git commit -am "Add foo.txt"`. (-a flag is used to skip `git add` step)
+5) You now have commited creation of foo.txt in your newly created branch. However, as branches represent independent line of development, this change is only visible in the new branch and not in the default branch.
+6) Update the current branch to `main` / `master` through `git checkout main` or `git checkout master`.
+7) Observe you do not have foo.txt anymore in your working directory.
+
+### Collaboration
+You can add collaborators i.e., people that have write access (ability to push commits) to the repository to enable working in teams.
+
+1) Head on over to your repository on GitHub. Navigate to the `Settings` section.
+2) In the left section under `Access`, you'll find `Collaborators`.
+3) Click `Add People` to add your team.
+
 ## Assignment 0
 Head on over to the Assignment 0 URL shared with you in LMS. Be sure to log in using your GitHub account you are going to use for the rest of this course. Using that link, you can select your Qalam ID from the dropdown menu and accept this assignment. The assignment is intended to familiarize students with submissions over [GitHub Classroom](https://classroom.github.com/) platform. 
 
