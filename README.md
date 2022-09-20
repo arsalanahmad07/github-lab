@@ -48,6 +48,9 @@ Head on over to the Assignment 0 URL shared with you in LMS. Be sure to log in u
 More details about the assignment will be available in its README.md file.
 
 ## Setting up Git Environment
+Transform your terminal for Git.
+
+![diff](https://user-images.githubusercontent.com/113828118/191312166-59dd6bd7-bddb-42d0-830f-96318a9cd8aa.svg)
 
 ### Softwares used
 - [Windows Terminal](https://github.com/microsoft/terminal/) 
