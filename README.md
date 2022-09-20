@@ -1,5 +1,25 @@
 # Git and GitHub
 
+## Motivation
+Following is a very simplified one-liner answer to common questions. There is much more detail into each question and students are encouraged to research the topic on their own.
+
+#### What is Git?
+Git is a version control software/application that keeps track of the history of your changes.
+
+#### Why Git?
+Git keeps track of the history of your project and allows you to make 'checkpoints' seamlessly as you develop your code. It makes collaborative work on a project go from a nightmare to a smooth, painless experience as you don't need to email 10 different versions of your project each time someone makes a new change in source code.
+
+#### Difference between Git and GitHub?
+- Git is an application/software that tracks your changes.
+
+- GitHub is an online platform for hosting Git repositories allowing every one in your team to access your code.
+
+#### Local repository vs. Remote repository
+- Local repository is the version of the project downloaded in your local machine. 
+- Remote repository is the version of the project uploaded on an online hosting platform that anyone in your collaborative team can download.
+
+> Git is not the only version control system. Other examples include Mercurial, Apache Subversion etc. Likewise there are many alternatives to GitHub.com including GitBucket, GitLab, Bitbucket, Sourceforge etc. But by far, Git and GitHub have become the De facto standard for version controlling and collaborative work.
+
 ## Basic Git Commands
 The following are basic git commands you need to get started. Keep in mind the following is a very high-level description of each command's functionality. In reality, there is much more to each command which you can learn from reading the documentation hyperlinked to each command's heading. For now, a purposefully simplified description of each command can suffice.
 
