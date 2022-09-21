@@ -204,6 +204,6 @@ Feel free to contribute to this lab as well if you believe something can be impr
 
 ## Resources
 - [Git/GitHub Beginner Tutorial](https://www.youtube.com/watch?v=8JJ101D3knE)
-- [Write good commit messages](https://cbea.ms/git-commit/)
-- [An example repository with good commit messages](https://github.com/chocolatey/choco/pulls?q=is%3Apr+is%3Aclosed)
+- [GitHub Skills](https://skills.github.com/)
+- [More terminal themes](https://ohmyposh.dev/docs/themes)
 - [Intermediate Git Tutorial - Learn Git Data Model](https://www.youtube.com/watch?v=2sjqTHE0zok)
