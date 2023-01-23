@@ -53,7 +53,7 @@ The following are basic git commands you need to get started. Keep in mind the f
 * [git push](https://git-scm.com/docs/git-push): Upload your commit from local repository to repote repository
   * `USAGE: git push`
   
-* [git fetch](https://git-scm.com/docs/git-fetch): Get all updates from the repote repository.
+* [git fetch](https://git-scm.com/docs/git-fetch): Get all updates from the remote repository.
   * `USAGE: git fetch`
   
 * [git merge](https://git-scm.com/docs/git-merge): Download updates from git fetch command into your local repository.
